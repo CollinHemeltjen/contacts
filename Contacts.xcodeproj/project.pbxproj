@@ -12,6 +12,8 @@
 		E36DAF74221C7978006B68EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E36DAF72221C7978006B68EE /* Main.storyboard */; };
 		E36DAF76221C7979006B68EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E36DAF75221C7979006B68EE /* Assets.xcassets */; };
 		E36DAF79221C7979006B68EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E36DAF77221C7979006B68EE /* LaunchScreen.storyboard */; };
+		E36DAF81221C7B14006B68EE /* NameDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36DAF80221C7B14006B68EE /* NameDataSource.swift */; };
+		E36DAF87221C8DDE006B68EE /* NamesList.txt in Resources */ = {isa = PBXBuildFile; fileRef = E36DAF86221C8DDE006B68EE /* NamesList.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		E36DAF75221C7979006B68EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E36DAF78221C7979006B68EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E36DAF7A221C7979006B68EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E36DAF80221C7B14006B68EE /* NameDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameDataSource.swift; sourceTree = "<group>"; };
+		E36DAF86221C8DDE006B68EE /* NamesList.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NamesList.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +60,10 @@
 			children = (
 				E36DAF6E221C7978006B68EE /* AppDelegate.swift */,
 				E36DAF70221C7978006B68EE /* ViewController.swift */,
+				E36DAF80221C7B14006B68EE /* NameDataSource.swift */,
 				E36DAF72221C7978006B68EE /* Main.storyboard */,
 				E36DAF75221C7979006B68EE /* Assets.xcassets */,
+				E36DAF86221C8DDE006B68EE /* NamesList.txt */,
 				E36DAF77221C7979006B68EE /* LaunchScreen.storyboard */,
 				E36DAF7A221C7979006B68EE /* Info.plist */,
 			);
@@ -125,6 +131,7 @@
 				E36DAF79221C7979006B68EE /* LaunchScreen.storyboard in Resources */,
 				E36DAF76221C7979006B68EE /* Assets.xcassets in Resources */,
 				E36DAF74221C7978006B68EE /* Main.storyboard in Resources */,
+				E36DAF87221C8DDE006B68EE /* NamesList.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E36DAF81221C7B14006B68EE /* NameDataSource.swift in Sources */,
 				E36DAF71221C7978006B68EE /* ViewController.swift in Sources */,
 				E36DAF6F221C7978006B68EE /* AppDelegate.swift in Sources */,
 			);
