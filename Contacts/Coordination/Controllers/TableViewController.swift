@@ -8,7 +8,8 @@
 
 import UIKit
 
-class ViewController: UITableViewController {
+class TableViewController: UITableViewController, Storyboarded {
+	weak var coordinator: MainCoordinator?
 	var dataSource = NameDataSource()
 
 	override func viewDidLoad() {
@@ -35,6 +36,11 @@ class ViewController: UITableViewController {
 	
 	override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
 		return dataSource.titleForSection(section)
+	}
+	
+	override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+		let item = dataSource.getItem(at: indexPath.row, in: indexPath.section)
+		coordinator?.showDetail(item: item)
 	}
 }
 

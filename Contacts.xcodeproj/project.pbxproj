@@ -8,24 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		E36DAF6F221C7978006B68EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36DAF6E221C7978006B68EE /* AppDelegate.swift */; };
-		E36DAF71221C7978006B68EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36DAF70221C7978006B68EE /* ViewController.swift */; };
+		E36DAF71221C7978006B68EE /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36DAF70221C7978006B68EE /* TableViewController.swift */; };
 		E36DAF74221C7978006B68EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E36DAF72221C7978006B68EE /* Main.storyboard */; };
 		E36DAF76221C7979006B68EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E36DAF75221C7979006B68EE /* Assets.xcassets */; };
 		E36DAF79221C7979006B68EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E36DAF77221C7979006B68EE /* LaunchScreen.storyboard */; };
 		E36DAF81221C7B14006B68EE /* NameDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36DAF80221C7B14006B68EE /* NameDataSource.swift */; };
 		E36DAF87221C8DDE006B68EE /* NamesList.txt in Resources */ = {isa = PBXBuildFile; fileRef = E36DAF86221C8DDE006B68EE /* NamesList.txt */; };
+		E3FF257D221F37F30066796F /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FF257C221F37F30066796F /* Coordinator.swift */; };
+		E3FF257F221F389C0066796F /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FF257E221F389C0066796F /* Storyboarded.swift */; };
+		E3FF2582221F3AB10066796F /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FF2581221F3AB10066796F /* MainCoordinator.swift */; };
+		E3FF2585221F3E1B0066796F /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FF2584221F3E1B0066796F /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E36DAF6B221C7978006B68EE /* Contacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Contacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E36DAF6E221C7978006B68EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E36DAF70221C7978006B68EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E36DAF70221C7978006B68EE /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		E36DAF73221C7978006B68EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E36DAF75221C7979006B68EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E36DAF78221C7979006B68EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E36DAF7A221C7979006B68EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E36DAF80221C7B14006B68EE /* NameDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameDataSource.swift; sourceTree = "<group>"; };
 		E36DAF86221C8DDE006B68EE /* NamesList.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NamesList.txt; sourceTree = "<group>"; };
+		E3FF257C221F37F30066796F /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		E3FF257E221F389C0066796F /* Storyboarded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboarded.swift; sourceTree = "<group>"; };
+		E3FF2581221F3AB10066796F /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		E3FF2584221F3E1B0066796F /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +66,8 @@
 		E36DAF6D221C7978006B68EE /* Contacts */ = {
 			isa = PBXGroup;
 			children = (
+				E3FF257B221F37C50066796F /* Coordination */,
 				E36DAF6E221C7978006B68EE /* AppDelegate.swift */,
-				E36DAF70221C7978006B68EE /* ViewController.swift */,
 				E36DAF80221C7B14006B68EE /* NameDataSource.swift */,
 				E36DAF72221C7978006B68EE /* Main.storyboard */,
 				E36DAF75221C7979006B68EE /* Assets.xcassets */,
@@ -68,6 +76,34 @@
 				E36DAF7A221C7979006B68EE /* Info.plist */,
 			);
 			path = Contacts;
+			sourceTree = "<group>";
+		};
+		E3FF257B221F37C50066796F /* Coordination */ = {
+			isa = PBXGroup;
+			children = (
+				E3FF2580221F3A810066796F /* Protocols */,
+				E3FF2581221F3AB10066796F /* MainCoordinator.swift */,
+				E3FF2583221F3DE40066796F /* Controllers */,
+			);
+			path = Coordination;
+			sourceTree = "<group>";
+		};
+		E3FF2580221F3A810066796F /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				E3FF257C221F37F30066796F /* Coordinator.swift */,
+				E3FF257E221F389C0066796F /* Storyboarded.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		E3FF2583221F3DE40066796F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E36DAF70221C7978006B68EE /* TableViewController.swift */,
+				E3FF2584221F3E1B0066796F /* DetailViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,9 +178,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3FF257D221F37F30066796F /* Coordinator.swift in Sources */,
+				E3FF2582221F3AB10066796F /* MainCoordinator.swift in Sources */,
 				E36DAF81221C7B14006B68EE /* NameDataSource.swift in Sources */,
-				E36DAF71221C7978006B68EE /* ViewController.swift in Sources */,
+				E3FF257F221F389C0066796F /* Storyboarded.swift in Sources */,
+				E36DAF71221C7978006B68EE /* TableViewController.swift in Sources */,
 				E36DAF6F221C7978006B68EE /* AppDelegate.swift in Sources */,
+				E3FF2585221F3E1B0066796F /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
