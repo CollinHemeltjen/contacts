@@ -11,7 +11,7 @@ import UIKit
 class MainCoordinator: Coordinator {
 	var childCoordinators = [Coordinator]()
 	var navigationController: UINavigationController
-	
+		
 	init(navigationController: UINavigationController){
 		self.navigationController = navigationController
 		navigationController.navigationBar.prefersLargeTitles = true

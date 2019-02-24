@@ -68,7 +68,7 @@
 			children = (
 				E3FF257B221F37C50066796F /* Coordination */,
 				E36DAF6E221C7978006B68EE /* AppDelegate.swift */,
-				E36DAF80221C7B14006B68EE /* NameDataSource.swift */,
+				E3FF258822204FF30066796F /* DataSources */,
 				E36DAF72221C7978006B68EE /* Main.storyboard */,
 				E36DAF75221C7979006B68EE /* Assets.xcassets */,
 				E36DAF86221C8DDE006B68EE /* NamesList.txt */,
@@ -104,6 +104,14 @@
 				E3FF2584221F3E1B0066796F /* DetailViewController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E3FF258822204FF30066796F /* DataSources */ = {
+			isa = PBXGroup;
+			children = (
+				E36DAF80221C7B14006B68EE /* NameDataSource.swift */,
+			);
+			path = DataSources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
